@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOLLYWOOD</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+       
+        .himg {
+            transition: transform 0.3s ease;
+        }
+
+        .himg:hover {
+            transform: scale(1.1); 
+        }
+
+      
+        .hcap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .himg:hover + .hcap {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+   <center> <h1>TOLLYWOOD</h1> </center>
+    <div class="name">
+     <h3>Hero</h3>
+     <h3>Villain</h3>
+    </div>
+    <div class="t">
+        <table id="hero">
+            <tr>
+                <td><img src="./balayya.jpeg" alt="" width="170p"></td>
+                <td><img src="./charan.jpeg" alt=""></td>
+                <td><img src="./pawan.jpg" alt="" width="170p"></td>
+            </tr>
+            <tr>
+                <td><img src="./mahesh.jpg" alt="" width="170p"></td>
+                <td><img src="./venky.jpeg" alt="" width="170p"></td>
+                <td><img src="./nag maama.jpeg" alt=""></td>
+            </tr>
+            <tr>
+                <td><img src="./chiru1.jpeg" alt="" width="170p"></td>
+                <td><img src="./ravi.jpeg" alt="" width="170p"></td>
+                <td><img src="./prabhas.jpg" alt="" width="170p"></td>
+            </tr>
+        </table>
+        <table id="villian">
+            <tr>
+                <td><img src="./aadhi.jpeg" alt="" width="170p"></td>
+                <td><img src="./bobby.jpeg" alt="" width="170p"></td>
+                <td><img src="./gopal rao.jpeg" alt=""width="170p"></td>
+            </tr>
+            <tr>
+                <td><img src="./jaggu bhai.jpeg" alt=""width="170p"></td>
+                <td><img src="./neela.jpeg" alt=""></td>
+                <td><img src="./raana.jpeg" alt=""width="170p"></td>
+            </tr>
+            <tr>
+                <td><img src="./sonu sood.jpeg" alt="" width="170p"></td>
+                <td><img src="./saii.jpg" alt=""width="170p"></td>
+                <td><img src="./samudhra.jpeg" alt=""width="170p"></td>
+            </tr>
+        
+        </table>
+    </div>    
+    
+</body>
+</html>

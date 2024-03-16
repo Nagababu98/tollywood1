@@ -1,0 +1,48 @@
+body{
+    background: url("https://media.istockphoto.com/vectors/tollywood-indian-cinema-vector-banner-with-text-vector-id1141152205?k=6&m=1141152205&s=170667a&w=0&h=9rbS-eoK2zyMDifC_2bVrNLhsrJacaOnGSYdjCVkhYM=");
+}
+
+
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 1);
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+.name:hover {
+    opacity: 1;
+}
+
+
+h3{
+    color: white;
+    font-size: xx-large;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+img:hover {
+    transform: scale(1.1); 
+}
